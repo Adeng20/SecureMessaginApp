@@ -48,7 +48,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #da7426;
+  color: #bfda26;
 }
 
 .heading_container.heading_center {
@@ -79,7 +79,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  height: calc(100vh - 35px);
+  height: calc(100vh - 50px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,16 +96,16 @@ a:focus {
 }
 
 .sub_page .header_section .header_bottom {
-  background-color: #003471;
+  background-color: #8a25b9c4;
 }
 
 .header_section {
-  border-top: 15px solid #da7426;
+  border-top: 15px solid #7b18cc;
 }
 
 .header_section .header_top {
   padding: 15px 0;
-  background-color: #003471;
+  background-color: #e017c6;
 }
 
 .header_section .header_top .header_top_container {
@@ -147,7 +147,7 @@ a:focus {
 
 .header_section .header_top .contact_nav a i {
   margin-right: 5px;
-  background-color: #159ec0;
+  background-color: #800dad;
   width: 35px;
   height: 35px;
   display: -webkit-box;
@@ -164,7 +164,8 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a:hover i {
-  background-color: #da7426;
+  background-color:  #e017c6
+  ;
 }
 
 .header_section .header_top .social_box {
@@ -175,7 +176,7 @@ a:focus {
 
 .header_section .header_top .social_box a i {
   margin-right: 5px;
-  background-color: #159ec0;
+  background-color:#800dad;
   width: 28px;
   height: 28px;
   display: -webkit-box;

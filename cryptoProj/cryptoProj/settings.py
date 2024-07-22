@@ -133,9 +133,12 @@ LOGIN_URL = '/messaging/login/'
 LOGIN_REDIRECT_URL = '/messaging/send/'
 LOGOUT_REDIRECT_URL = '/messaging/login/'
 
-TWILIO_ACCOUNT_SID = 'AC13d0e8b404788c8d224eed4e87af426a'
-TWILIO_AUTH_TOKEN = 'eaec14c8546129fefdd1c21c83b0e751'
-TWILIO_PHONE_NUMBER = '+12184384747'
+
+
+
+TWILIO_ACCOUNT_SID = 'AC6fe6fc035314b7691cfe803b45844ac9'
+TWILIO_AUTH_TOKEN = '02914beefe286f21d6be4a610e7b2487'
+TWILIO_PHONE_NUMBER = '+15746269920'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/

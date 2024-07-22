@@ -14,7 +14,7 @@ def generate_key(otp: str, salt: bytes) -> bytes:
     )
     return kdf.derive(otp.encode())
 
-def encrypt_message(message: str, key: bytes) -> (bytes, bytes):
+def encrypt_message(message: str, key: bytes) -> (bytes, bytes): # type: ignore
     aesgcm = AESGCM(key)
     nonce = os.urandom(12)
     encrypted_message = aesgcm.encrypt(nonce, message.encode(), None)
